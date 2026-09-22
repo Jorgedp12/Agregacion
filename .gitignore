@@ -1,0 +1,26 @@
+# Compiled Java classes & Build output
+bin/
+.bin/
+out/
+target/
+*.class
+
+# IDE & Tooling metadata (Eclipse / STS)
+.classpath
+.project
+.settings/
+
+# VS Code (Ignora todo excepto configuraciones útiles del proyecto)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
